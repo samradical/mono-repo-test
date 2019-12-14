@@ -12,11 +12,6 @@
         "*.js"
     ],
     "config": {
-        "npm": {
-            "registry": {
-                "releases": "https://artifactory.doppelmutzi.com/"
-            }
-        }
     },
     "scripts": {
         "serve": "vue-cli-service serve",
