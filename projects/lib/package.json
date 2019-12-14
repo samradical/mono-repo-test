@@ -2,7 +2,7 @@
     "name": "@adddog-test/awesome-components",
     "license": "MIT",
     "author": "Sam Elie",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "./dist/awesome.common.js",
     "files": [
         "dist/*",
@@ -11,8 +11,7 @@
         "*.json",
         "*.js"
     ],
-    "config": {
-    },
+    "config": {},
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
