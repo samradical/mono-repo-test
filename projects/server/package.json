@@ -1,5 +1,5 @@
 {
-    "name": "server",
+    "name": "@adddog-test/server",
     "version": "0.0.4",
     "main": "index.js",
     "author": "Sam Elie",
@@ -8,8 +8,11 @@
         "start": "node index.js",
         "build": "echo build server"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "dependencies": {
         "express": "^4.16.3"
     },
-    "gitHead": "52f7befbeeee70ccb6ab7d6af5872ef139a7bec9"
+    "gitHead": "db92557ca2168c18894c39e65a188984a41aaafb"
 }
