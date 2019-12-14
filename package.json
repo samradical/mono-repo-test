@@ -2,7 +2,7 @@
     "name": "yarn-lerna",
     "version": "0.1.0",
     "description": "Awesome mono repo",
-    "author": "Sebastian Weber",
+    "author": "Sam Elie",
     "license": "MIT",
     "private": true,
     "workspaces": [
@@ -10,12 +10,12 @@
     ],
     "scripts": {
         "cleanup": "./cleanup.sh",
-        "build:doppelmutzi": "lerna run --scope=@doppelmutzi/* build",
-        "build:dependent": "lerna run --scope=@doppelmutzi/awesome-app build --include-filtered-dependencies",
+        "build:adddog-test": "lerna run --scope=@adddog-test/* build",
+        "build:dependent": "lerna run --scope=@adddog-test/awesome-app build --include-filtered-dependencies",
         "build:all": "lerna exec yarn build"
-
     },
     "devDependencies": {
+        "husky": "^3.1.0",
         "lerna": "^3.3.1"
     }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "@doppelmutzi/awesome-components",
+    "name": "@adddog-test/awesome-components",
     "license": "MIT",
-    "author": "Sebastian Weber",
-    "version": "0.1.0",
+    "author": "Sam Elie",
+    "version": "0.0.0",
     "main": "./dist/awesome.common.js",
     "files": [
         "dist/*",
