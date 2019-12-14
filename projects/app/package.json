@@ -7,8 +7,11 @@
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build"
     },
+    "publishConfig": {
+    "access": "public"
+  },
     "dependencies": {
-        "@adddog-test/awesome-components": "file:../lib",
+        "@adddog-test/awesome-components": "^0.0.3",
         "vue": "^2.5.17"
     },
     "devDependencies": {
@@ -16,5 +19,6 @@
         "@vue/cli-service": "^3.0.3",
         "vue-template-compiler": "^2.5.17",
         "vueify": "^9.4.1"
-    }
+    },
+    "gitHead": "52f7befbeeee70ccb6ab7d6af5872ef139a7bec9"
 }

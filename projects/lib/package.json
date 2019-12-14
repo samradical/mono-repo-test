@@ -11,6 +11,9 @@
         "*.json",
         "*.js"
     ],
+        "publishConfig": {
+    "access": "public"
+  },
     "config": {},
     "scripts": {
         "serve": "vue-cli-service serve",
@@ -28,5 +31,6 @@
         "lerna": "^3.3.2",
         "vue-template-compiler": "^2.5.17",
         "vueify": "^9.4.1"
-    }
+    },
+    "gitHead": "52f7befbeeee70ccb6ab7d6af5872ef139a7bec9"
 }
