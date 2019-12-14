@@ -1,6 +1,7 @@
 {
- "lerna": "2.5.1",
- "packages": ["projects/*"],
+ "packages": [
+  "projects/*"
+ ],
  "npmClient": "yarn",
  "independant": true,
  "useWorkspaces": true,
@@ -8,5 +9,6 @@
   "publish": {
    "conventionalCommits": true
   }
- }
+ },
+ "version": "0.0.5"
 }
