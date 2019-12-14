@@ -2,16 +2,16 @@
     "name": "@adddog-test/awesome-app",
     "license": "MIT",
     "author": "Sam Elie",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build"
     },
     "publishConfig": {
-    "access": "public"
-  },
+        "access": "public"
+    },
     "dependencies": {
-        "@adddog-test/awesome-components": "^0.0.3",
+        "@adddog-test/awesome-components": "^0.0.4",
         "vue": "^2.5.17"
     },
     "devDependencies": {
