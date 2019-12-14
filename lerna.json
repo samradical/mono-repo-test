@@ -1,10 +1,8 @@
 {
  "lerna": "2.5.1",
- "packages": [
-  "projects/*"
- ],
- "version": "0.0.5",
+ "packages": ["projects/*"],
  "npmClient": "yarn",
+ "independant": true,
  "useWorkspaces": true,
  "command": {
   "publish": {

@@ -1,0 +1,7 @@
+{
+  "name": "@adddog-tests/joke",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Sam Elie <sam@add.dog> (http://add.dog)",
+  "license": "MIT"
+}
