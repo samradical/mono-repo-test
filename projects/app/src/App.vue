@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Components from "@doppelmutzi/awesome-components";
+import Components from "@adddog-test/awesome-components";
 
 export default {
   name: "app",
