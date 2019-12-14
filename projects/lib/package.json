@@ -2,7 +2,7 @@
     "name": "@adddog-test/awesome-components",
     "license": "MIT",
     "author": "Sam Elie",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "./dist/awesome.common.js",
     "files": [
         "dist/*",
